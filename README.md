@@ -4,23 +4,23 @@ Dynamic Loot for Living Scenarios
 
 [!IMPORTANT]
 
-BETA / WORK IN PROGRESS
+🚧 BETA / WORK IN PROGRESS
 
 TLL Loot System is currently a BETA version and is actively being developed.
 
-The following systems/categories are still WORK IN PROGRESS:
+Systems still being expanded
 
-Tools
+🛠️ Tools
 
-Misc
+📦 Misc
 
-Food / Drinks — coverage and balance are still expanding
+🍖 Food / Drinks — coverage and balance
 
-Key spawning and key-required containers are now functional.
+🔑 Key spawning and key-required containers are now functional.
 
-Their classification, balance, prefab coverage, and progression behavior may still change during development.
+Classification, balance, prefab coverage, and progression behavior may still change during development.
 
-Scenario makers should thoroughly test scenarios using these systems before relying on them for critical progression.
+Scenario makers should thoroughly test scenarios before relying on beta systems for critical progression.
 
 Overview
 
@@ -118,13 +118,15 @@ Searchable / lootable vegetable crops
 
 Custom / Forced Loot
 
-[!IMPORTANT]
+[!CAUTION]
 
-Tier 5 Key Containers
+🔴 Tier 5 Key Containers
 
-Tier 5 key-required containers are not provided by the vanilla map/world-prop setup.
+Tier 5 key-required containers are NOT present in the vanilla map/world-prop setup.
 
-Scenario makers who want Tier 5 key-required loot locations must place and configure the modded TLL container included with the addon, then enable the desired Tier 5 loot and key requirement.
+Scenario makers who want Tier 5 key-required loot locations must place and configure the modded TLL container included with the addon.
+
+Configure that container with the desired Tier 5 loot pool and Tier 5 key requirement.
 
 Still Work In Progress
 
@@ -895,15 +897,17 @@ The exact component inheritance can vary depending on the original Arma Reforger
 
 Important — Prefab Inheritance
 
+[!WARNING]
+
+⚠️ Check Inheritance Before Adding Components
+
+Do not blindly add the complete TLL component stack to every child prefab.
+
 Arma Reforger / Enfusion uses prefab inheritance.
 
 A child prefab can inherit components and configuration from a parent prefab.
 
-Because of this:
-
-Do not blindly add the complete TLL component stack to every child variant.
-
-Always check whether the required components are already inherited.
+Because of this, always check whether the required components are already inherited.
 
 For example, if a base cargo container receives the TLL components, several color variants may already inherit that functionality.
 
@@ -911,7 +915,11 @@ Duplicating components unnecessarily can cause prefab or replication problems.
 
 Food, Drinks & Vegetable Crops
 
-Food and drink spawning is now integrated into the TLL loot system.
+[!NOTE]
+
+🍖 Food & Drink Spawning
+
+Food and drink spawning is now functional and integrated into the TLL loot system.
 
 Vanilla Kitchen Loot
 
