@@ -148,3 +148,5 @@ Compatibility report (`Docs/Compatibility_1_9_20261106.md`) · Local changelog (
 
 The Workshop release is listed under the **Arma Public License (APL)**. The Rock and Stone assets have separate **CC BY 4.0** credits for **Siesta** and **Xephira**. [Workshop license listing](https://reforger.armaplatform.com/workshop/6A4F61ED4143DA79-TLL_LootSystemWIP) · Asset attribution (`Assets/Building/Economy/ATTRIBUTION.txt`)
 Built for scenario makers, by scenario makers.
+
+For any help needed please reach out to sebastian_rus on Discord
